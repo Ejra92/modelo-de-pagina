@@ -581,10 +581,11 @@ h4
 .h5
 {
     color: #F7F7F2;
-    display: inline;
+    display: inline-block;
     text-align: center;
     position: absolute;
     margin: 0;
+    padding: 0.0001px;
 }
 
 .h5:first-child
@@ -603,4 +604,16 @@ h4
 {
     top: 0;
     right: 170px;
+}
+
+.geiden
+{
+    display: inline;
+    width: 54px;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    text-decoration-line: none;
 }
