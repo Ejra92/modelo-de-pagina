@@ -28,6 +28,11 @@ span
     color: #EC4E20;
 }
 
+a
+{
+    text-decoration-line: none;
+}
+
 .wrapper
 {
     width: 100%;
@@ -36,6 +41,8 @@ span
     margin-left: 0;
 }
 
+.header
+{}
 
 .mid
 {
@@ -379,7 +386,7 @@ h4
     width: 350px;
     height: 350px;
     display: inline-block;
-    border: 1px solid #181F1C;
+    box-shadow: 0 0 1px .3px rgba(0, 0, 0, .8);
     border-radius: 10px;
 }
 
@@ -387,6 +394,12 @@ h4
 {
     font-size: .7em;
     text-align: center;
+}
+
+.txt:hover
+{
+    box-shadow: 0 0 10px .5px rgba(0, 0, 0, .8) inset;
+    transition-delay: 10s;
 }
 
 .graduation
@@ -470,17 +483,9 @@ h4
     box-shadow: 0 0 2px 1px #181F1C;
 }
 
-
-
-.txt:hover
-{
-    background-color:  #574AE2;
-    transition: 1s;
-}
-
 .shadow:hover
 {
-    box-shadow: 0 0 2px 3px #181F1C;
+    box-shadow: 0 0 3px 2px rgba(0, 0, 0, .5);
 }
 
 .background3
@@ -495,7 +500,7 @@ h4
 .footer
 {
     width: 100%;
-    height: 50.5vh;
+    height: 328px;
     padding-top: 0.0001px;
     position: relative;
 }
@@ -546,6 +551,13 @@ h4
 }
 
 
+
+.boton:active
+{
+    top:90px;
+}
+
+
 .img
 {
     position: relative;
@@ -562,12 +574,6 @@ h4
     left:300px;
 }
 
-
-
-.img:hover
-{
-    background-color: #181F1C;
-}
 
 .bot-footer
 {
